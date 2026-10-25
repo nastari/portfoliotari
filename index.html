@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Bhetari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+    <div class="top-bar">
+        <span class="desktop-name">
+            🌼 Bhetari's Corner
+        </span>
+    </div>
+
+  <!-- Grid background -->
+  <div class="grid-bg"></div>
+
+  <!-- Judul utama -->
+   <div class="desktop-area">
+
+    <div class="left-icons">
+      
+    </div>
+
+    <div class="center-title">
+      <h1>PORTFOLIO</h1>
+      <h1>TARI</h1>
+    </div>
+
+    <div class="right-icons">
+      
+    </div>
+  
+  </div>
+
+  <!-- Ikon folder kiri -->
+  <div class="left-icons">
+    <div class="icon"
+    onclick="openWindow('Profile')">
+      <img src="assets/icon B.png" alt="Profile">
+      <p>Profile</p>
+    </div>
+    <div class="icon"
+    onclick="openWindow('Achievements')">
+      <img src="assets/folder capung.png" alt="Achievements">
+      <p>Achievements</p>
+    </div>
+  </div>
+
+  <!-- Ikon folder kanan -->
+  <div class="right-icons">
+    <div class="icon"
+    onclick="openWindow('Contact')">
+      <img src="assets/folder bunga.png" alt="Contact">
+      <p>Contact</p>
+    </div>
+    <div class="icon"
+    onclick="openWindow('What Can I Do')">
+      <img src="assets/folder ulat.png" alt="What Can I Do">
+      <p>What Can I Do</p>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+
+    <div class="window">
+
+        <div class="window-header">
+
+            <span
+              id="windowPath">C:\Bhetari\Portfolio</span>
+
+            <button onclick="closeWindow()">✕</button>
+
+        </div>
+
+        <div id="popup-content"></div>
+
+    </div>
+
+</div>
+
+<!-- Bottom Bar -->
+<div class="bottom-bar">
+
+</div>
+
+<div id="certificatePreview" class="certificate-preview">
+
+    <button
+        class="close-preview"
+        onclick="closeCertificate()">
+        ✕
+    </button>
+
+    <img
+      id="certificatePreviewImg"
+      src=""
+      alt="Certificate">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
