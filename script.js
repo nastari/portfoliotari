@@ -97,6 +97,22 @@ document.getElementById("windowPath").innerText =
             </p>
 
         </div>
+        
+        <div class="certificate-card">
+
+            <img src="assets/google for education.png"
+            alt="Sertifikat 3"
+            class="certificate-img"
+            onclick="showCertificate('assets/google for education.png')">
+
+            <h3>Google for Education</h3>
+
+            <p>
+                Diselenggarakan oleh Google
+                pada 28 Oktober 2026
+            </p>
+
+        </div>
 
     </div>
 
